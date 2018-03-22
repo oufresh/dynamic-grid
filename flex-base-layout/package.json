@@ -1,0 +1,20 @@
+{
+  "name": "flex-base-layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp autoprefixer"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "gulp-postcss": "^7.0.1"
+  }
+}

@@ -78,17 +78,19 @@ body {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    /* left: 0; */
+	left: -250px;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-	transform: translateX(-100%);
+	/* transform: translateX(-100%); */
 }
 
 .sidenav.open 
 {
-	transform: translateX(0%);
+	/* transform: translateX(0%); */
+	left: 0;
 }
 
 .sidenav a {

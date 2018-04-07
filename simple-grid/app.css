@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+html { height: 100%; width: 100%; }
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 52px auto 32px;
+}
+
+.header {
+	background-color: lightgray;
+}
+
+.main {
+	background-color: lightcyan;
+	overflow-y: auto;
+}
+
+.footer {
+	background-color: lightgray;
+}

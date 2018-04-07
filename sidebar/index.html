@@ -13,17 +13,20 @@ body {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+     /* left: 0; */
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-	transform: translateX(-100%);
+	/* using left right has better compatiblity IE8 */
+	/* transform: translateX(-100%); */
+	left: -250px;
 }
 
 .sidenav.open 
 {
-	transform: translateX(0%);
+	/* transform: translateX(0%); */
+	left: 0px;
 }
 
 .sidenav a {

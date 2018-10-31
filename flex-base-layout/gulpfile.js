@@ -9,7 +9,10 @@ gulp.task('autoprefixer', function() {
 
     return gulp.src('./src/*.css')
         .pipe(sourcemaps.init())
-        .pipe(postcss([ autoprefixer() ]))
+        .pipe(postcss([ autoprefixer({browsers: [
+                              'last 4 versions',
+                              'Firefox ESR'
+			]}) ]))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./dist'));
   });
